@@ -68,7 +68,8 @@ Pasos para Probar con Postman:
 - Selecciona el archivo postman/Desafio Backend Previred.postman_collection.json.
 - Una vez importado, encontrarás los endpoints organizados.
 - Antes de ejecutar cualquier endpoint protegido:
-- Usa el endpoint "Login" para obtener un token JWT.
+    Usa el endpoint "Login" para obtener un token JWT.
+
 Request Body para el login:
 
 ```json
@@ -89,7 +90,8 @@ Pasos para Usar Swagger UI:
     Método HTTP, parámetros, respuestas esperadas.
 - Antes de ejecutar cualquier endpoint protegido:
     Usa el endpoint "Login" en Swagger para obtener un token JWT.
-    Request Body para el login:
+
+Request Body para el login:
 ```json
     {
         "username": "admin",
