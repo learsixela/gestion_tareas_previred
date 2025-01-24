@@ -71,12 +71,12 @@ Antes de ejecutar cualquier endpoint protegido:
 Usa el endpoint "Login" para obtener un token JWT.
 Request Body para el login:
 
-    ```json
+```json
     {
         "username": "admin",
         "password": "Secret1234"
     }
-    ```
+```
 Copia el token y configúralo como Bearer <TOKEN> en los headers para los siguientes endpoints.
 Los endpoints estarán listos para pruebas.
 
