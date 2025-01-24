@@ -51,24 +51,24 @@ Estados de las Tareas:
 - Completada
 
 ## **Acceso a la Consola H2
-Abre un navegador y ve a: http://localhost:8081/h2-console
-Ingresa las siguientes credenciales:
-JDBC URL: jdbc:h2:mem:gestiondb
-User Name: admin
-Password: secret1234
-Haz clic en "Connect".
+- Abre un navegador y ve a: http://localhost:8081/h2-console
+- Ingresa las siguientes credenciales:
+- JDBC URL: jdbc:h2:mem:gestiondb
+- User Name: admin
+- Password: secret1234
+- Haz clic en "Connect".
 Podrás explorar las tablas usuarios, tareas y estados_tarea.
 
 ## **Probar API con Postman
 Dentro del proyecto hay una carpeta llamada postman que contiene un archivo de configuración para Postman.
 
 Pasos para Probar con Postman:
-Abre Postman.
-Haz clic en el botón "Import" en la parte superior izquierda.
-Selecciona el archivo postman/Desafio Backend Previred.postman_collection.json.
-Una vez importado, encontrarás los endpoints organizados.
-Antes de ejecutar cualquier endpoint protegido:
-Usa el endpoint "Login" para obtener un token JWT.
+- Abre Postman.
+- Haz clic en el botón "Import" en la parte superior izquierda.
+- Selecciona el archivo postman/Desafio Backend Previred.postman_collection.json.
+- Una vez importado, encontrarás los endpoints organizados.
+- Antes de ejecutar cualquier endpoint protegido:
+- Usa el endpoint "Login" para obtener un token JWT.
 Request Body para el login:
 
 ```json
@@ -84,12 +84,12 @@ Los endpoints estarán listos para pruebas.
 La API está documentada con Swagger. Swagger UI te permite explorar y probar los endpoints de manera interactiva.
 
 Pasos para Usar Swagger UI:
-Abre un navegador y ve a: http://localhost:8081/swagger-ui/index.html
-Haz clic en los endpoints para ver detalles como:
-Método HTTP, parámetros, respuestas esperadas.
-Antes de ejecutar cualquier endpoint protegido:
-Usa el endpoint "Login" en Swagger para obtener un token JWT.
-Request Body para el login:
+- Abre un navegador y ve a: http://localhost:8081/swagger-ui/index.html
+- Haz clic en los endpoints para ver detalles como:
+    Método HTTP, parámetros, respuestas esperadas.
+- Antes de ejecutar cualquier endpoint protegido:
+    Usa el endpoint "Login" en Swagger para obtener un token JWT.
+    Request Body para el login:
 ```json
     {
         "username": "admin",
