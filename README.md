@@ -99,3 +99,13 @@ Request Body para el login:
     }
 ```
 
+
+### Notas
+# JWT Token:
+
+Al autenticarte correctamente, obtendrás un token JWT.
+Usa este token en el encabezado Authorization con el formato Bearer <TOKEN> para acceder a los endpoints protegidos.
+
+# Base de Datos Volátil:
+
+Como la base de datos H2 es en memoria, los datos se perderán al detener la aplicación. Para mantener los datos, deberás configurar una base de datos persistente.
